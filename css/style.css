@@ -1,23 +1,42 @@
-section#main {
-	background-color: #6c889e;
-	height: 200px;
+*{
+	box-sizing: border-box;
 }
-h1 {
+body, html, p {
+	margin: 0;
+	padding: 0;
+}
+.header-menu {
+	width: 100%;
+	position: fixed;
+}
+a{
 	color: white;
-	text-transform: uppercase;
-	margin-top: 10%;
-}
-section#example {
-	height: 100vh;
-	padding-top: 100px;
 
 }
-.box {
-	height: 100px;
-	border: 2px solid #000;
+.ssilka {
+	background-color: black;
+	display: inline-block;
+	width: 20%;
+	border: 2px solid white;
+	padding: 10px;
 }
-.box_in {
-	height: 50px;
-	background-color: green;
-	border: 2px dashed #000;
+.block {
+	width: 300px;
+	height: 400px;
+	border: 2px solid grey;
+	position: fixed;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top: -200px;
+}
+.text {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	padding: 20px 40px;
+}
+.lesson10 {
+	background-color: black;
+	padding: 10px;
 }
