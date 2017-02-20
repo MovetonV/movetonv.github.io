@@ -1,0 +1,85 @@
+@font-face {
+    /*не  забыть поменять путь к своей папке с шрифтами*/
+    font-family: 'OpenSansExtrabold';
+    src: url('../fonts/OpenSansExtrabold.eot');
+    src: url('../fonts/OpenSansExtrabold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansExtrabold.woff2') format('woff2'),
+         url('../fonts/OpenSansExtrabold.woff') format('woff'),
+         url('../fonts/OpenSansExtrabold.ttf') format('truetype'),
+         url('../fonts/OpenSansExtrabold.svg#OpenSansExtrabold') format('svg');
+}
+h1 {
+font-family: 'OpenSansExtrabold', sans-serif;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.main-head {
+	margin-top: 3%;
+}
+.main-logo-border {
+	width: 155px;
+	height: 55px;
+	border: 3px solid #706b73;
+	text-align: center;
+	line-height: 49px; /*число за минусом бордера*/
+	}
+.main-logo-border p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	color: #6f6f6f;
+}
+.main-logo-border p span {
+	color: #fa9a87;
+}
+.main-nav-bar {
+	position: relative;
+	float: right;
+	width: 35px;
+	margin-top: 25px;
+}
+.line {
+	border-radius: 5px;
+	display: block;
+	width: 35px;
+	height: 4px;
+	background-color: #706b73;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-2px);
+	-ms-transform: translateY(-2px);
+	-o-transform: translateY(-2px);
+	transform: translateY(-2px);
+}
+.line:before {
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-8px);
+	-ms-transform: translateY(-8px);
+	-o-transform: translateY(-8px);
+	transform: translateY(-8px);
+	content: '';
+	width: 35px;
+	height: 4px;
+	background-color: #706b73;
+}
+.line:after{
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(4px);
+	-ms-transform: translateY(4px);
+	-o-transform: translateY(4px);
+	transform: translateY(4px);
+	content: '';
+	width: 35px;
+	height: 4px;
+	background-color: #706b73;
+}
+
