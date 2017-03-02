@@ -346,7 +346,7 @@ section#works {
 			background-color: @bg-services-list;
 			// мои поползновения
 			padding-top: 25px; 
-			padding-left: 25px;		
+			padding-left: 0px;		
 			}
 
 	}
@@ -653,7 +653,48 @@ Modal Window
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s;
 }
-@media (min-width:0px) and (max-width:480px) {
+@media (min-width:0px) and (max-width:360px) {
+	.main {
+		&-text {
+			h1 {
+				font-size: 22px;
+				padding-top: 10px;
+				padding-bottom: 15px;
+			}
+		}
+	}
+	.section-header {
+		h2 {
+			font-size: 22px;
+			padding-top: 30px;
+			padding-bottom: 15px;
+			line-height: 30px;	
+		}
+	}
+	.process{
+		&-box {
+		margin-top: 45px;
+		}
+	} 
+	.works-box {
+	height: 320px;
+	}
+	.services {
+		padding: 0;
+		&-list-item {
+			width: 60px;
+			height: 60px;
+			img {
+				height: 50px;
+			}
+		}
+	}
+	.slick-dots {
+	bottom: 25px;
+	}
+}
+
+@media (min-width:361px) and (max-width:480px) {
 	.main {
 		&-text {
 			h1 {
@@ -667,20 +708,45 @@ Modal Window
 		h2 {
 			font-size: 22px;
 			padding-top: 10px;
-			padding-bottom: 15px;	
+			padding-bottom: 15px;
+			line-height: 35px;
 		}
 	}
-	.process-box {
+	.process{
+		&-box {
 		margin-top: 75px;
-	}
+		}
+	} 
 	.works-box {
-	height: 350px;
+	height: 380px;
+	}
+	.services {
+	 padding: 0;
+		&-list-item {
+		width: 60px;
+		height: 60px;
+		img {
+			height: 50px;
+			}
+		}
+	}
+	.slick-dots {
+		bottom: 20px;
 	}
 }
 @media (min-width:481px) and (max-width:767px) {
-		.process-box {
-		margin-top: 75px;
+	.process-box {
+	 margin-top: 75px;
+
 	}
+	.main-form {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	.works-box {
+	height: 600px;
+	}
+
 }
 @media (min-width:768px) and (max-width:991px) {
 	.process-box {
